@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "algo": "algo",
+      "coin": null,
+      "url": "pool",
+      "user": "address",
+      "pass": "x",
+      "rig-id": null,
+      "nicehash": false,
+      "keepalive": true,
+      "enabled": true,
+      "tls": false,
+      "tls-fingerprint": null,
+      "daemon": false,
+      "socks5": null,
+      "self-select": null
+    }
+  ],
+  "cc-client": {
+    "enabled": true,
+    "use-tls": false,
+    "use-remote-logging": true,
+    "upload-config-on-start": true,
+    "url": "controlcenter:port",
+    "access-token": "token",
+    "reboot-cmd": null,
+    "update-interval-s": 10
+  }
+}
